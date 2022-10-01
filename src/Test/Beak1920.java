@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 import static java.util.Arrays.binarySearch;
-
+//수 찾기 ( 이분 탐색 )  이해 절대 안댐
 public class Beak1920 {
     public static void main(String[]args){
         Scanner in = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Beak1920 {
             arr[i] = in.nextInt();
         }
 
-        Arrays.sort(arr);
+        Arrays.sort(arr); //탐색을 하려면 정렬이 되어있어야 한다.
 
         int M = in.nextInt();
 
