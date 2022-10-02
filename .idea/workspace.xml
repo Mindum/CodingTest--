@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae17a729-a15a-42a2-9bf4-50f9c0a1a525" name="Changes" comment="codingTest">
-      <change afterPath="$PROJECT_DIR$/src/Test/Beak1929.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Beak1978.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Beak1920.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Beak1920.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Beak1929.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Beak1929.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
       <updated>1663738826089</updated>
       <workItem from="1663738827488" duration="12402000" />
       <workItem from="1664114938336" duration="18328000" />
-      <workItem from="1664635290720" duration="2268000" />
+      <workItem from="1664635290720" duration="6858000" />
     </task>
     <task id="LOCAL-00001" summary="codingTest">
       <created>1664465189600</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664465189601</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="codingTest">
+      <created>1664637799043</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664637799043</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
