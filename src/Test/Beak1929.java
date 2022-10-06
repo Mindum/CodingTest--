@@ -1,36 +1,35 @@
 package Test;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
-//소수 구하기
+//소수구하기
 public class Beak1929 {
+    public static boolean[] prime;
+    public static void main(String[] args) {
 
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //처음 배운 것
-        StringTokenizer st = new StringTokenizer(br.readLine()); // 처음 배운 것
-        int M = Integer.parseInt(st.nextToken());
-        int N = Integer.parseInt(st.nextToken());
-        int i;
-        boolean arr[] = new boolean[N + 1];
-        arr[0] = arr[1] = true;
+        Scanner in = new Scanner(System.in);
+        int M = in.nextInt();
+        int N = in.nextInt();
 
-        int sqrt = (int) Math.sqrt(N);  // 처음 배운개념 ( 에라토스테네스의 체 알고리즘 )
-        for (i = 2; i <= sqrt; i++) {
-            for (int j = 2; j <= N / i; j++) {
-                if (arr[i * j] == true) {
-                    continue;
-                } else {
-                    arr[i * j] = true;
-                }
-            }
+        prime = new boolean[N + 1];
+        get_prime();
 
+        for(int i = M; i <= N; i++) {
+            // false = 소수
+            if(!prime[i]) System.out.println(i);
         }
-        for (i = M; i <= N; i++) {
-            if (arr[i] == false) {
-                System.out.println(i);
+    }
+
+
+    // 에라토스테네스의 체 알고리즘
+    public static void get_prime() {
+        // true = 소수아님 , false = 소수
+        prime[0] = prime[1] = true;
+
+        for(int i = 2; i <= Math.sqrt(prime.length); i++) {
+            if(prime[i]) continue;
+            for(int j = i * i; j < prime.length; j += i) {
+                prime[j] = true;
             }
         }
     }

@@ -4,24 +4,25 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 import static java.util.Arrays.binarySearch;
-//수 찾기 ( 이분 탐색 )  이해 절대 안댐
+//수 찾기
 public class Beak1920 {
     public static void main(String[]args){
         Scanner in = new Scanner(System.in);
 
-        int N = in.nextInt();
+        int N = in.nextInt();         //5
         int[] arr = new int[N];
 
         for(int i = 0; i<N; i++){
-            arr[i] = in.nextInt();
+            arr[i] = in.nextInt(); // 1 2 7 5 9
         }
 
         Arrays.sort(arr); //탐색을 하려면 정렬이 되어있어야 한다.
-
+        // 1 2 5 7 9
         int M = in.nextInt();
 
         StringBuilder sb = new StringBuilder();
-        for(int i = 0 ; i<M;i++){
+
+        for(int i = 0 ; i<M;i++){   //m
             if(BinarySearch(arr,in.nextInt()) >= 0 ){
                 sb.append(1).append('\n');
             }

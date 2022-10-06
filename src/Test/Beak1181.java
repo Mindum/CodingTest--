@@ -6,8 +6,6 @@ import java.util.Scanner;
 //단어 정렬
 public class Beak1181 {
     public static void main(String[] args) {
-
-
         Scanner in = new Scanner(System.in);
 
         int N = in.nextInt();
@@ -17,9 +15,8 @@ public class Beak1181 {
             arr[i] = in.nextLine();
         }
 
-
-        Arrays.sort(arr, new Comparator<String>() {
-            public int compare (String s1, String s2){
+        Arrays.sort(arr, new Comparator<String>() { //내림차순으로 정렬해주는 기능
+            public int compare (String s1, String s2){ // 문자열을 비교해주는 함수 compare
                 if (s1.length() == s2.length()){
                     return s1.compareTo(s2);
                 }
