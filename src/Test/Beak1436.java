@@ -1,8 +1,6 @@
 package Test;
 
-
 import java.util.Scanner;
-
 //영화감독 숌
 public class Beak1436 {
     public static void main(String[]args){
