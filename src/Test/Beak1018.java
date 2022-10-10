@@ -28,7 +28,7 @@ public class Beak1018 {
         for(int i=0;i<row;i++)board[i] = sc.nextLine();
 
         // 1. 체스판 자르기
-        int sol = 64;
+        int sol = Integer.MAX_VALUE;
         for(int i=0;i<=row-8;i++){
             for(int j=0;j<=col;j++){
                 // 2. 현 체스판의 최소 비용 구하기
