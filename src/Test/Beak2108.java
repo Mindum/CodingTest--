@@ -58,8 +58,13 @@ public class Beak2108 {
             if(arr[i] > 0){
                 //중앙값 찾기
                 // 누적횟수가 전체 길이의 절반에 못 미친다면
-
                 if(count < (N + 1 ) / 2){
+                    count +=arr[i];
+                    median = i-4000;
+                }
+                //최빈값 찾기
+                // 이전 최빈값보다 현재 값의 빈도수가 더 높을 경우
+                if(mode_max < arr[i]){
                     mode_max = arr[i];
                     mode = i - 4000;
                     flag = true; // 첫 등장이므로 true로 변경
