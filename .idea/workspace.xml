@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae17a729-a15a-42a2-9bf4-50f9c0a1a525" name="Changes" comment="codingTest">
-      <change afterPath="$PROJECT_DIR$/src/Test/Beak2164.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/work1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Beak2231.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Beak2292.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Beak2108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Beak2108.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.work1 (1)">
+  <component name="RunManager" selected="Application.Beak2292">
     <configuration name="Beak1181" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Beak1181" />
       <module name="Test1" />
@@ -66,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Beak1920" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Beak1920" />
+    <configuration name="Beak2231" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Beak2231" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Beak1929" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Beak1929" />
+    <configuration name="Beak2292" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Beak2292" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Beak2292" />
+        <item itemvalue="Application.Beak2231" />
         <item itemvalue="Application.work1 (1)" />
         <item itemvalue="Application.work1" />
         <item itemvalue="Application.Beak1181" />
-        <item itemvalue="Application.Beak1920" />
-        <item itemvalue="Application.Beak1929" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +133,7 @@
       <workItem from="1664114938336" duration="18328000" />
       <workItem from="1664635290720" duration="24703000" />
       <workItem from="1665404742371" duration="11744000" />
-      <workItem from="1666084372681" duration="1637000" />
+      <workItem from="1666084372681" duration="8885000" />
     </task>
     <task id="LOCAL-00001" summary="codingTest">
       <created>1664465189600</created>
@@ -178,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665405961894</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="codingTest">
+      <created>1666086412092</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666086412092</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,5 +248,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Test1$Beak2231.ic" NAME="Beak2231 Coverage Results" MODIFIED="1666155572402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Test.*</FILTER>
+    </SUITE>
   </component>
 </project>
