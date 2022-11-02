@@ -19,7 +19,7 @@ class Person {
 public class asdf {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("겜블링 게임에 참여할 선수 숫자>>");
+        System.out.print("겜블링 게임에 참여할 선수 숫자>>");//겜블링 시작하기
         int num = sc.nextInt();
         Person[] person = new Person[num];
         for(int i=0; i<num; i++) {

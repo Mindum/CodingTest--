@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae17a729-a15a-42a2-9bf4-50f9c0a1a525" name="Changes" comment="codingTest">
-      <change afterPath="$PROJECT_DIR$/src/Test/asdf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/asdf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/asdf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,9 @@
       <workItem from="1666315652696" duration="2885000" />
       <workItem from="1666430361743" duration="3118000" />
       <workItem from="1666514092084" duration="2251000" />
-      <workItem from="1667032363698" duration="1540000" />
+      <workItem from="1667032363698" duration="2165000" />
+      <workItem from="1667354229494" duration="463000" />
+      <workItem from="1667362952481" duration="1199000" />
     </task>
     <task id="LOCAL-00001" summary="codingTest">
       <created>1664465189600</created>
@@ -215,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666515855654</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="codingTest">
+      <created>1667212068614</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667212068614</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
