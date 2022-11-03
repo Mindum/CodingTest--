@@ -23,7 +23,7 @@ public class asdf {
         int num = sc.nextInt();
         Person[] person = new Person[num];
         for(int i=0; i<num; i++) {
-            System.out.print((i+1)+"번째 선수 이름>>");
+            System.out.print((i+1)+"번째 선수 이름>>");//선수 이름 정하기
             String name = sc.next();
             person[i] = new Person(name);
         }
