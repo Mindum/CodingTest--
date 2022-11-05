@@ -22,5 +22,23 @@ public class Beak2798 {
 
     static int search(int arr[], int N, int M){
         int result = 0;
+
+        for(int i = 0; i < N - 2 ; i++){
+            for(int j = 0; j < N - 1 ; j ++){
+                for(int k = 0; k < N ; k++){
+
+                    int temp = arr[i] + arr[j] + arr[k];
+
+                    if ( M == temp){
+                        return temp;
+                    }
+
+                    if(result < temp && temp < M){
+                        result = temp;
+                    }
+                }
+            }
+        }
+        return result;
     }
 }
