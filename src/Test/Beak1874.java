@@ -25,7 +25,9 @@ public class Beak1874 {
                     sb.append('+').append('\n');
                 }
                 start = value;
-            } else if (stack.peek() != value) { //새로 배운 것
+            }
+            //top에 있는 원소가 입력받은 값과 같지 않은 경우
+            else if (stack.peek() != value) { //새로 배운 것
                 System.out.println("No");
                 return;
             }
