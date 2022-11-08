@@ -2,7 +2,7 @@ package Test;
 
 import java.util.LinkedList;
 import java.util.Scanner;
-
+//프린터 큐
 public class Beak1966 {
     public static void main(String[]args){
 

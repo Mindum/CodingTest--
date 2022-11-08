@@ -1,7 +1,7 @@
 package Test;
 
 import java.util.Scanner;
-
+//벌집
 public class Beak2292 {
     public static void main(String []args) {
         Scanner in = new Scanner(System.in);

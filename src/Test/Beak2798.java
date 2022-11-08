@@ -1,7 +1,7 @@
 package Test;
 
 import java.util.Scanner;
-
+//블랙잭
 public class Beak2798 {
     public static void main(String []args){
 

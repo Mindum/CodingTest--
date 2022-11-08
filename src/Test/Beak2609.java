@@ -1,7 +1,7 @@
 package Test;
 
 import java.util.Scanner;
-
+//최소공배수와 최대 공약수
 public class Beak2609 {
     public static void main ( String[]args) {
         Scanner in = new Scanner(System.in);

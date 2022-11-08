@@ -1,6 +1,7 @@
 package Test;
 
 import java.util.Scanner;
+//부녀회장이 될테야
 
 public class Beak2775 {
     public static void main(String[]args){
