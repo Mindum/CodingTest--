@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Beak1018 {
 
     public static int getSolution(int sRow, int sCol, String[] board){
-        String[] orgBoard = {"WBWBWBWB","BWBWBWBW"};
+        String[] orgBoard = {"WBWBWBWB","BWBWBWBW"}; //올바른 정답안을 만들어 놓고 charAt으로 비교하기
         int whiteSol = 0;
         for(int i=0;i<8;i++){
             int row = sRow + i;
