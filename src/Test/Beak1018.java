@@ -15,7 +15,7 @@ public class Beak1018 {
                 if(board[row].charAt(col)!= orgBoard[row %2].charAt(j))whiteSol++;
             }
         }
-        return Math.min(whiteSol, 64-whiteSol);
+        return Math.min(whiteSol, 64-whiteSol); //화이트보드와 블랙보드의 값을 비교하여 더 낮은 값을 선택
     }
 
     public static void main(String[]args){
