@@ -15,7 +15,7 @@ public class Beak2292 {
         if (N == 1) {
             System.out.println(1);
         } else {
-            while (range <= N) {
+            while (range <= N) { // 규칙을 찾아봤을 때 벌집모양으로 인해 바깥쪽으로 이동 할 수록 6씩 늘어남
                 range = range + (6 * count);
                 count++;
             }
