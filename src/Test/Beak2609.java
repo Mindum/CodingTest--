@@ -17,7 +17,7 @@ public class Beak2609 {
 
     public static int gcd(int N, int M){
         while ( M != 0){
-            int r = N % M;
+            int r = N % M; //나머지를 구해준다
 
             N = M;
             M = r;
