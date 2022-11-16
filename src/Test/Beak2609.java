@@ -15,7 +15,7 @@ public class Beak2609 {
         System.out.println(N*M/H);
     }
 
-    public static int gcd(int N, int M){
+    public static int gcd(int N, int M){ // 유클리드 알고리즘 gcd
         while ( M != 0){
             int r = N % M; //나머지를 구해준다
 
