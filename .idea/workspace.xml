@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae17a729-a15a-42a2-9bf4-50f9c0a1a525" name="Changes" comment="codingTest">
-      <change afterPath="$PROJECT_DIR$/src/Test/Air.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Air2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/B1eak2775.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/B1eak2798.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Air2">
+  <component name="RunManager" selected="Application.B1eak2798">
     <configuration name="Air" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Air" />
       <module name="Test1" />
@@ -79,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Beak1654" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Beak1654" />
+    <configuration name="B1eak2775" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.B1eak2775" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Beak1874" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Beak1874" />
+    <configuration name="B1eak2798" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.B1eak2798" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B1eak2798" />
+        <item itemvalue="Application.B1eak2775" />
         <item itemvalue="Application.Air2" />
         <item itemvalue="Application.Air" />
         <item itemvalue="Application.work2" />
-        <item itemvalue="Application.Beak1874" />
-        <item itemvalue="Application.Beak1654" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +155,9 @@
       <workItem from="1667974700738" duration="2559000" />
       <workItem from="1668171899262" duration="1307000" />
       <workItem from="1668271442247" duration="194000" />
-      <workItem from="1668413205293" duration="8077000" />
+      <workItem from="1668413205293" duration="8095000" />
+      <workItem from="1668653594427" duration="606000" />
+      <workItem from="1668663425357" duration="4063000" />
     </task>
     <task id="LOCAL-00001" summary="codingTest">
       <created>1664465189600</created>
@@ -339,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668579007649</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="codingTest">
+      <created>1668611590571</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1668611590571</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
