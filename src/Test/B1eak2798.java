@@ -20,7 +20,7 @@ public class B1eak2798 {
         System.out.println(result);
     }
 
-    public static int search(int arr[], int N, int M){
+    public static int search(int arr[], int N, int M){ //카드 3장을 합쳐서 만들어야 함으로 3중 for문을 이용해서 만들기
 
         int result = 0;
         for(int i = 0; i < N-2 ; i ++){
