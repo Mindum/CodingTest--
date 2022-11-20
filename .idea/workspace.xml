@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae17a729-a15a-42a2-9bf4-50f9c0a1a525" name="Changes" comment="codingTest" />
+    <list default="true" id="ae17a729-a15a-42a2-9bf4-50f9c0a1a525" name="Changes" comment="codingTest">
+      <change afterPath="$PROJECT_DIR$/src/Test/Beak2805.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +51,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.B1eak2798">
+  <component name="RunManager" selected="Application.Beak2805">
     <configuration name="Air" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Air" />
       <module name="Test1" />
@@ -101,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="work2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.work2" />
+    <configuration name="Beak2805" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Beak2805" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Beak2805" />
         <item itemvalue="Application.B1eak2798" />
         <item itemvalue="Application.B1eak2775" />
         <item itemvalue="Application.Air2" />
         <item itemvalue="Application.Air" />
-        <item itemvalue="Application.work2" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +158,8 @@
       <workItem from="1668653594427" duration="606000" />
       <workItem from="1668663425357" duration="4063000" />
       <workItem from="1668766572875" duration="195000" />
+      <workItem from="1668869275541" duration="3487000" />
+      <workItem from="1668939258916" duration="1630000" />
     </task>
     <task id="LOCAL-00001" summary="codingTest">
       <created>1664465189600</created>
@@ -352,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668766598301</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="codingTest">
+      <created>1668869316849</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1668869316849</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,6 +434,20 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Test/Beak2805.java</url>
+          <line>5</line>
+          <properties class="Test.Beak2805" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Beak2805.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
