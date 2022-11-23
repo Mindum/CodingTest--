@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae17a729-a15a-42a2-9bf4-50f9c0a1a525" name="Changes" comment="codingTest">
-      <change afterPath="$PROJECT_DIR$/src/Test/Beak2839.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/workout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Air.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Air2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/B1eak2775.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/B1eak2798.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/B1eak2798.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Choas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Exercise5_11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/asdf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/work1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/work2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +51,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.B1eak2798">
+  <component name="RunManager" selected="Application.workout">
     <configuration name="Air2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Air2" />
       <module name="Test1" />
@@ -101,19 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Beak2805" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Beak2805" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Beak2839" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Beak2839" />
       <module name="Test1" />
@@ -127,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="workout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.workout" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.workout" />
         <item itemvalue="Application.B1eak2798" />
         <item itemvalue="Application.B1eak2775" />
         <item itemvalue="Application.Beak2839" />
         <item itemvalue="Application.Air2" />
-        <item itemvalue="Application.Beak2805" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +160,7 @@
       <workItem from="1668766572875" duration="195000" />
       <workItem from="1668869275541" duration="3487000" />
       <workItem from="1668939258916" duration="12437000" />
+      <workItem from="1669206570157" duration="3690000" />
     </task>
     <task id="LOCAL-00001" summary="codingTest">
       <created>1664465189600</created>
@@ -388,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669014776168</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="codingTest">
+      <created>1669206587759</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1669206587759</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,6 +474,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Test/workout.java</url>
+          <line>5</line>
+          <properties class="Test.workout" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/Beak2805.java</url>
