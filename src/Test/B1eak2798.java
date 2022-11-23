@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class B1eak2798 {
     public static void main(String[] args) {
+
         Scanner in = new Scanner(System.in);
 
-        int N = in.nextInt();  //입력받을 카드의 수
-        int M = in.nextInt();  //맞추고자 하는 수
+        int N = in.nextInt();
+        int M = in.nextInt();
 
         int arr[] = new int[N];
 
@@ -15,30 +16,28 @@ public class B1eak2798 {
             arr[i] = in.nextInt();
         }
 
-        int result = search(arr,N,M);
-
+        int result = search(arr, N, M);
         System.out.println(result);
     }
 
-    public static int search(int arr[], int N, int M){ //카드 3장을 합쳐서 만들어야 함으로 3중 for문을 이용해서 만들기
+    public static int search(int arr[], int N, int M) {
 
         int result = 0;
-        for(int i = 0; i < N-2 ; i ++){
-            for(int j = 0 ; j < N-1 ; j ++){
-                for(int k = 0 ; k < N ; k++){
-                    result = arr[i] + arr[j] + arr[k];
+        for (int i = 0; i < N - 2; i++) {
+            for (int j = 0; j < N - 1; j++) {
+                for (int k = 0; k < N; k++) {
+                    int temp = arr[i] + arr[j] + arr[k];
 
-                    int temp = M;
-                    if ( result == temp){
+                    if (temp == M) {
                         return temp;
                     }
-                    if( result < temp && temp < M){
+                    if (result < temp && result < M) {
                         result = temp;
                     }
+
                 }
             }
         }
         return result;
-
     }
 }
