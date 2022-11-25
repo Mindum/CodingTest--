@@ -10,7 +10,12 @@ public class Beak2869 {
         int A = sc.nextInt();
         int B = sc.nextInt();
         int V = sc.nextInt();
-         b
 
+        int result = ( V - B) % ( A - B);
+
+        if((V - B) % (A - B)!=0){
+            result++;
+        }
+        System.out.println(result);
     }
 }
