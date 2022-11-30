@@ -1,35 +1,34 @@
 package Test;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class Beak7568 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        Scanner in = new Scanner(System.in);
 
-        int N = Integer.parseInt(br.readLine());
-        int[][] arr = new int[N][2];
+        int N = in.nextInt();
 
-        String[] sp;
-        for(int i = 0; i < N ; i++ ){
-            sp = br.readLine().split(" ");
-            arr[i][0] = Integer.parseInt(sp[0]);
-            arr[i][1] = Integer.parseInt(sp[1]);
+        int[][] arr =new int[N][2];
+
+        for(int i = 0; i < N ; i++){
+            arr[i][0] = in.nextInt();
+            arr[i][1] = in.nextInt();
         }
 
-        for(int i = 0; i < N; i++){
-            int rank = i;
 
+        for(int i = 0; i < N; i++){
+            int rank = 1;
             for(int j = 0; j < N ; j++){
-                if(i == j)continue;
-                if ( arr[i][0] < arr [j][0] && arr[i][1] < arr[j][1]){
+
+                if ( i == j)continue;
+                if (arr[i][0] < arr[j][0] && arr[i][1] < arr[j][1]){
                     rank++;
                 }
             }
-            System.out.println(rank + " ");
+            System.out.println(rank +" ");
         }
 
     }
+
 }
