@@ -1,7 +1,7 @@
 package Test;
 
 import java.util.Scanner;
-
+//덩치
 public class Beak7568 {
     public static void main(String[] args) {
 
