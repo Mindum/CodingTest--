@@ -1,7 +1,7 @@
 package Test;
 
 import java.util.Scanner;
-
+//설탕배달
 public class Beak2839 {
     public static void main(String[] args) {
 
