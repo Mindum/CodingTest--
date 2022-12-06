@@ -1,7 +1,7 @@
 package Test;
 
 import java.util.Scanner;
-
+//나무 자르기
 public class Beak2805 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -30,7 +30,7 @@ public class Beak2805 {
             for (int arrHeight : arr) {    //배열의 값과 Mid의 값을 빼면서 M과 숫자가 맞지 않으면 다시 while문 처음부터
 
                 if (arrHeight - Mid > 0) {
-                    sum += (arrHeight - Mid);//자 가보자거
+                    sum += (arrHeight - Mid);
                 }
             }
             if (sum < M) {
