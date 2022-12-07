@@ -1,7 +1,7 @@
 package Test;
 
 import java.util.Scanner;
-
+//달팽이
 public class Beak2869 {
     public static void main(String[] args) {
 
