@@ -2,7 +2,7 @@ package Test;
 
 import java.util.Scanner;
 import java.util.Stack;
-
+//괄호
 public class Beak9012 {
     public static void main(String[] args) {
 
