@@ -21,7 +21,7 @@ public class Beak1874 {
 
             if (value > start) {
                 for (int i = start + 1; i <= value; i++) {
-                    stack.push(i);  // 새로 배운 개념
+                    stack.push(i);  // 새로 배운 개념 스택에 인자들을 추가하는 stack.push
                     sb.append('+').append('\n');
                 }
                 start = value;
