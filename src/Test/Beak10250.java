@@ -1,7 +1,7 @@
 package Test;
 
 import java.util.Scanner;
-
+//ACM호텔
 public class Beak10250 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
