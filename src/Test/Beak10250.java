@@ -10,7 +10,7 @@ public class Beak10250 {
         int T = in.nextInt();
 
         for(int i = 0; i < T ; i++){
-            int H = in.nextInt();//yggy
+            int H = in.nextInt();//숫자를 3개 받는거임
             int W = in.nextInt();
             int N = in.nextInt();
 
