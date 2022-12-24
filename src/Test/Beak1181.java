@@ -18,7 +18,7 @@ public class Beak1181 {
         Arrays.sort(arr, new Comparator<String>() { //내림차순으로 정렬해주는 기능
             public int compare (String s1, String s2){ // 문자열을 비교해주는 함수 compare
                 if (s1.length() == s2.length()){//문자열끼리 비교해서 어떤 문자열을 선택할지 정하는 if문
-                    return s1.compareTo(s2);
+                    return s1.compareTo(s2); // compareTo는 사전 순으로 정렬해주는 기능임
                 }
                 else{
                     return s1.length() - s2.length();
