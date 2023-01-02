@@ -22,7 +22,7 @@ public class Beak7568 {
             for(int j = 0; j < N ; j++){
 
                 if ( i == j)continue;
-                if (arr[i][0] < arr[j][0] && arr[i][1] < arr[j][1]){
+                if (arr[i][0] < arr[j][0] && arr[i][1] < arr[j][1]){ // 덩치를 비교하는 for문
                     rank++;
                 }
             }
