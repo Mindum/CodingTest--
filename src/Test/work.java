@@ -53,7 +53,7 @@ public class work {
         int day = (Y - M) / (N -M);
 
         if((Y - M) % (N - M) != 0){
-            day++;4
+            day++;
         }
         System.out.println(day);
     }

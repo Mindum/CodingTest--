@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae17a729-a15a-42a2-9bf4-50f9c0a1a525" name="Changes" comment="codingTest">
+      <change afterPath="$PROJECT_DIR$/src/Test/Beak10816.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Beak7568.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Beak7568.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/work.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +52,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.varyeun">
-    <configuration name="Beak2869" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Beak2869" />
+  <component name="RunManager" selected="Application.Beak10816">
+    <configuration name="Beak10816" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Beak10816" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Beak10816" />
         <item itemvalue="Application.varyeun" />
         <item itemvalue="Application.work" />
         <item itemvalue="Application.Beak7568" />
         <item itemvalue="Application.Beak4153" />
-        <item itemvalue="Application.Beak2869" />
       </list>
     </recent_temporary>
   </component>
@@ -187,14 +188,8 @@
       <workItem from="1672236280617" duration="2970000" />
       <workItem from="1672475236970" duration="45000" />
       <workItem from="1672548644212" duration="1698000" />
-      <workItem from="1672667525987" duration="924000" />
-    </task>
-    <task id="LOCAL-00013" summary="codingTest">
-      <created>1667385047573</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1667385047573</updated>
+      <workItem from="1672667525987" duration="1125000" />
+      <workItem from="1672748060488" duration="2393000" />
     </task>
     <task id="LOCAL-00014" summary="codingTest">
       <created>1667480372547</created>
@@ -532,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672550961116</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="codingTest">
+      <created>1672668763138</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1672668763139</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
