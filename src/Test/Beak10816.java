@@ -3,6 +3,7 @@ package Test;
 import java.util.Arrays;
 import java.util.Scanner;
 
+//카드 게임
 public class Beak10816 {
     public static void main(String[] args) {
 
