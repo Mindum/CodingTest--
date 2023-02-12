@@ -7,6 +7,8 @@ import java.io.InputStreamReader;
 
 public class Beak1003 {
 
+    //피보나치수
+    //dp재귀를 이용해서 푸는 방법
     static Integer[][] dp = new Integer[41][2];
 
     public static void main(String[] args) throws IOException {
