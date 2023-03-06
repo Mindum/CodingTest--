@@ -25,7 +25,7 @@ public class Beak10816 {
         for (int i = 0; i < M; i++) {
             int key = in.nextInt();
 
-            sb.append(upperBound(arr1, key) - lowerBound(arr, key)).append(' ');
+         //  sb.append(upperBound(arr1, key) - lowerBound(arr, key)).append(' ');
         }
         System.out.println(sb);
     }
