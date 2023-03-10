@@ -11,7 +11,7 @@ public class Beak2579 {
 
         Scanner in = new Scanner(System.in);
 
-        int T = in.nextInt();
+        int T = in.nextInt(); dfasd
 
         dp = new Integer[T+1]; //맨 처음에 null값을 넣어 처리해주기 위해서 T+1
         arr = new int[T+1]; //
