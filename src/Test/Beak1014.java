@@ -9,5 +9,9 @@ public class Beak1014 {
         Scanner in = new Scanner(System.in);
 
         int T = in.nextInt();// 테스트 케이스 수를 받는
+        int M = in.nextInt();
+        int N = in.nextInt();
+
     }
+
 }
