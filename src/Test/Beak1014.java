@@ -11,6 +11,11 @@ public class Beak1014 {
         int T = in.nextInt();// 테스트 케이스 수를 받는
         int M = in.nextInt();
         int N = in.nextInt();
+        int K = in.nextInt();
+
+        for(int i = 0; i < K ; i ++){
+
+        }
 
     }
 
