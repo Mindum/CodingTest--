@@ -158,6 +158,7 @@ public class WiseNLUExample {
                 morphemes = new ArrayList<Morpheme>(morphemesMap.values());
                 morphemes.sort( (morpheme1, morpheme2) -> {
                     return morpheme2.count - morpheme1.count;
+
                 });
             }
 
