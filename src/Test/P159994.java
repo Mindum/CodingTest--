@@ -1,6 +1,6 @@
 package Test;
 
-public class P159994 {
+public class P159994 {//카드뭉치
     class Solution {
         public String solution(String[] cards1, String[] cards2, String[] goal) {
             int cardIdx1 = 0;
