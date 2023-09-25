@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae17a729-a15a-42a2-9bf4-50f9c0a1a525" name="Changes" comment="프로그래머스&#10;카드 뭉치">
+      <change afterPath="$PROJECT_DIR$/src/Test/P138477.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/P155652.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/P155652.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/P159994.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/P159994.java" afterDir="false" />
@@ -217,7 +218,7 @@
       <workItem from="1694767069585" duration="3494000" />
       <workItem from="1695214147399" duration="511000" />
       <workItem from="1695285677508" duration="210000" />
-      <workItem from="1695384604461" duration="645000" />
+      <workItem from="1695384604461" duration="718000" />
     </task>
     <task id="LOCAL-00037" summary="codingTest">
       <created>1669780109705</created>
