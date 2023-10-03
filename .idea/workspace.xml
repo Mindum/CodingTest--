@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae17a729-a15a-42a2-9bf4-50f9c0a1a525" name="Changes" comment="프로그래머스&#10;카드 뭉치">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ae17a729-a15a-42a2-9bf4-50f9c0a1a525" name="Changes" comment="프로그래머스&#10;카드 뭉치" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +215,7 @@
       <workItem from="1695384604461" duration="718000" />
       <workItem from="1695652033770" duration="94000" />
       <workItem from="1695655229887" duration="8000" />
-      <workItem from="1695808208712" duration="1418000" />
+      <workItem from="1695808208712" duration="1516000" />
     </task>
     <task id="LOCAL-00037" summary="codingTest">
       <created>1669780109705</created>
